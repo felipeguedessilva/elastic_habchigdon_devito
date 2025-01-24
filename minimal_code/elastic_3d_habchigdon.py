@@ -395,10 +395,6 @@ end_time     = tm.time()
 dif_time_s   = end_time - start_time
 dif_time_min = dif_time_s/60
 print('OPFULL Time Execution (min): ', dif_time_min, flush=True)
-print(op.ccode)
-
-sys.exit('odjidiojd')
-
 
 #==============================================================================
 # Operator Evolution
